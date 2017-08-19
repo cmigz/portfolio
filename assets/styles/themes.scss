@@ -1,17 +1,17 @@
 @import './colors';
 
 body {
+  background-color: $blue;
   margin: 0;
   padding: 0;
-  background-color: $blue;
 }
 
 .jumbotron {
-  background-image: url(./images/mountain-snow.jpg);
+  background-image: url('./images/mountain-snow.jpg');
   background-size: cover;
   height: 600px;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 section {

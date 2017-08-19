@@ -4,6 +4,8 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import './themes';
 @import './fonts';
 
+// Mobile Start --------------------------------------------------------
+
 @media (max-width: 1024px) {
   .jumbotron {
     height: 300px;
@@ -28,6 +30,10 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     text-align: center;
   }
 }
+
+// Mobile End ----------------------------------------------------------
+
+// Tablet Start --------------------------------------------------------
 
 @media (max-width: 660px) {
   .jumbotron {
@@ -55,3 +61,4 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     text-align: left;
   }
 }
+// Tablet End ----------------------------------------------------------
