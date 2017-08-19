@@ -2,3 +2,9 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import './images';
 @import './themes';
+
+@media (max-width: 760px) {
+  .jumbotron {
+    height: 300px;
+  }
+}
