@@ -1,4 +1,5 @@
 $header-text: 'Mountains of Christmas', cursive;
+$section-header-text: 'Lobster', cursive;
 
 .jumbo-text-1 {
   color: $white;
@@ -17,4 +18,11 @@ $header-text: 'Mountains of Christmas', cursive;
   font-weight: bold;
   margin: 0;
   text-align: center;
+}
+
+.section-header {
+  font-family: $section-header-text;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
