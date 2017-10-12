@@ -33,7 +33,7 @@ section {
 }
 
 .about-img {
-  width: 400px;
+  width: 250px;
 }
 
 .center-block {
@@ -41,3 +41,14 @@ section {
     margin-left: auto;
     margin-right: auto;
  }
+
+.thumbnail {
+  > img {
+    height: 200px;
+   }
+ }
+
+.thumbnail-text {
+  height: 150px;
+  overflow: scroll;
+}
