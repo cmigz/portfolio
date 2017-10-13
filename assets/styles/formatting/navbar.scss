@@ -1,12 +1,42 @@
 @import '../colors';
 @import '../fonts';
 
-.nav {
-  > li {
-    font-size: 20px;
-  }
-}
+nav {
+  background: $blue;
+  border-bottom: 2px solid $white;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 
-.navbar {
-  border: 2px solid $blue;
+
+  > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 10px;
+
+    > :hover {
+      // background-color: $white;
+    }
+
+    > li {
+      font-size: 24px;
+      list-style: none;
+      margin-left: 20px;
+      padding: 10px;
+
+      > a {
+        color: $white;
+      }
+
+      > a:hover {
+        // color: $blue;
+        color: $white;
+      }
+    }
+  }
 }
