@@ -1,36 +1,36 @@
 @import './colors';
 
-body {
-  background-color: $blue;
-  margin: 0;
-  padding: 0;
-}
+// body {
+//   background-color: $blue;
+//   margin: 0;
+//   padding: 0;
+// }
 
 // li {
 //   font-size: 32px;
 // }
 
-.nav {
-  > li {
-    font-size: 20px;
-  }
-}
+// .nav {
+//   > li {
+//     font-size: 20px;
+//   }
+// }
 
-.navbar-brand {
-  font-size: 32px;
-}
+// .navbar-brand {
+//   font-size: 32px;
+// }
 
-.navbar {
-  border: 2px solid $blue;
-}
+// .navbar {
+//   border: 2px solid $blue;
+// }
 
-.jumbotron {
-  background-image: url('./images/mountain-snow.jpg');
-  background-size: cover;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
+// .jumbotron {
+//   background-image: url('./images/mountain-snow.jpg');
+//   background-size: cover;
+//   height: 100vh;
+//   margin: 0;
+//   padding: 0;
+// }
 
 section {
   background-color: $white;

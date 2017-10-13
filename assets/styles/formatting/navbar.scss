@@ -1,0 +1,12 @@
+@import '../colors';
+@import '../fonts';
+
+.nav {
+  > li {
+    font-size: 20px;
+  }
+}
+
+.navbar {
+  border: 2px solid $blue;
+}

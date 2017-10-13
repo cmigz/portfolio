@@ -1,0 +1,29 @@
+@import '../colors';
+@import '../fonts';
+
+.jumbotron {
+  background-image: url('./images/mountain-snow.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbo-text-1 {
+  color: $white;
+  font-family: $header-text;
+  font-size: 104px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.jumbo-text-2 {
+  color: $white;
+  font-family: $header-text;
+  font-size: 82px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+@import './navbar';
+@import './landing';
+@import './sections';
+@import './skills-section';
+@import '../colors';
+@import '../fonts';
+
+body {
+  background-color: $blue;
+  margin: 0;
+  padding: 0;
+}
