@@ -13,12 +13,25 @@ $(() => {
 // use require without a reference to ensure a file is bundled
 require('./example')
 
-$('a').click(function () {
+$('.nav-item').click(function () {
   $('html, body').animate({
-    scrollTop: $($(this).attr('href')).offset().top
+    scrollTop: $($(this).attr('href')).offset().top - 60
   }, 500)
   return false
 })
+
+$("a[href='#home']").click(function () {
+  $('html, body').animate({ scrollTop: 0 }, 500)
+  return false
+})
+
+// $('a').click(function () {
+//   const el = $(this).attr('href')
+//   $('html, body').animate({
+//     scrollTop: el === 'home' ? $('body').offset().top : $(el).offset().top - 55
+//   }, 500)
+//   return false
+// })
 
 // $(document.body).animate({
 //   'scrollTop': $('#skills').offset().top
