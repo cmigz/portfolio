@@ -1,0 +1,14 @@
+@import '../colors';
+@import '../fonts';
+
+.about-header {
+  color: $white;
+  font-family: $primary-text;
+  font-size: 18px;
+  text-align: center;
+}
+
+.about-img {
+  margin-top: 20px;
+  width: 250px;
+}

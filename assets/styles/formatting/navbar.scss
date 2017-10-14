@@ -2,8 +2,8 @@
 @import '../fonts';
 
 nav {
-  background: $blue;
-  border-bottom: 2px solid $white;
+  background: $primary;
+  border-bottom: 2px solid $tertiary;
   margin: 0;
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin: 0;
     padding-left: 10px;
 
@@ -24,6 +24,7 @@ nav {
     }
 
     > li {
+      font-family: $primary-text;
       font-size: 24px;
       list-style: none;
       margin-left: 20px;

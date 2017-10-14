@@ -1,13 +1,15 @@
 @import './navbar';
 @import './landing';
 @import './sections';
+@import './about-section';
 @import './skills-section';
+@import './projects-section';
 @import './footer';
 @import '../colors';
 @import '../fonts';
 
 body {
-  background-color: $blue;
+  background-color: $secondary;
   margin: 0;
   padding: 0;
 }

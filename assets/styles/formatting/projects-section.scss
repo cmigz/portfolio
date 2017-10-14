@@ -1,0 +1,13 @@
+@import '../colors';
+@import '../fonts';
+
+.thumbnail {
+  > img {
+    height: 200px;
+   }
+ }
+
+.thumbnail-text {
+  height: 150px;
+  overflow: scroll;
+}
