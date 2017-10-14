@@ -26,9 +26,20 @@ section {
   position: relative;
 }
 
+.sub-header {
+  color: $white;
+  font-family: $primary-text;
+  font-size: 22px;
+  text-align: center;
+}
+
 .section-text {
   color: $white;
   margin: 20px 0;
   padding: 0 5%;
   text-align: center;
+}
+
+.star-light {
+  width: 80%;
 }
