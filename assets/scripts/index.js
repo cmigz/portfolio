@@ -15,7 +15,7 @@ require('./example')
 
 $('.nav-item').click(function () {
   $('html, body').animate({
-    scrollTop: $($(this).attr('href')).offset().top - 60
+    scrollTop: $($(this).attr('href')).offset().top - 70
   }, 500)
   return false
 })

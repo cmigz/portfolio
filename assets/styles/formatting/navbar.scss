@@ -19,10 +19,6 @@ nav {
     margin: 0;
     padding-left: 10px;
 
-    > :hover {
-      // background-color: $white;
-    }
-
     > li {
       font-family: $primary-text;
       font-size: 24px;
@@ -34,8 +30,7 @@ nav {
         color: $white;
       }
 
-      > a:hover {
-        // color: $blue;
+      > a:hover, a:visited {
         color: $white;
       }
     }
