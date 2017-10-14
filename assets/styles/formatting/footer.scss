@@ -2,21 +2,24 @@
 @import '../fonts';
 
 footer {
-  background-color: $white;
-  border: 2px solid $blue;
+  background-color: $primary;
+  border-top: 2px solid $tertiary;
   bottom: 0;
   position: fixed;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-  > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0;
-
-    > p {
-      margin: 0 10px;
-    }
+  > p, a {
+    margin: 0 10px;
+    color: $white;
   }
+}
+
+.footer-icon {
+  height: 35px;
+  width: 35px;
+  margin: 5px 5px;
 }
