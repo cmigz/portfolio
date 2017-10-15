@@ -14,11 +14,25 @@ $(() => {
 require('./example')
 
 $('.nav-item').click(function () {
-  $('html, body').animate({
-    scrollTop: $($(this).attr('href')).offset().top - 70
-  }, 500)
-  return false
+  if ($(window).width() <= 568) {
+    $('html, body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 45
+    }, 500)
+    return false
+  } else {
+    $('html, body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 70
+    }, 500)
+    return false
+  }
 })
+
+// $('.nav-item').click(function () {
+//   $('html, body').animate({
+//     scrollTop: $($(this).attr('href')).offset().top - 70
+//   }, 500)
+//   return false
+// })
 
 $("a[href='#home']").click(function () {
   $('html, body').animate({ scrollTop: 0 }, 500)

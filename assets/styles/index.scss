@@ -5,60 +5,79 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import './fonts';
 
 // Mobile Start --------------------------------------------------------
+// iPhone 6
 
-// @media (max-width: 1024px) {
-//   .jumbotron {
-//     height: 300px;
-//   }
-//
-//   .jumbo-text-1 {
-//     color: $white;
-//     font-family: $header-text;
-//     font-size: 42px;
-//     font-weight: bold;
-//     margin-bottom: 0;
-//     padding-top: 40px;
-//     text-align: center;
-//   }
-//
-//   .jumbo-text-2 {
-//     color: $white;
-//     font-family: $header-text;
-//     font-size: 24px;
-//     font-weight: bold;
-//     margin: 0;
-//     text-align: center;
-//   }
-// }
-//
-// // Mobile End ----------------------------------------------------------
-//
-// // Tablet Start --------------------------------------------------------
-//
-// @media (max-width: 660px) {
-//   .jumbotron {
-//     height: 300px;
-//   }
-//
-//   .jumbo-text-1 {
-//     color: $blue;
-//     font-family: $header-text;
-//     font-size: 32px;
-//     font-weight: bold;
-//     padding-bottom: 0;
-//     padding-left: 5px;
-//     padding-top: 236px;
-//     text-align: left;
-//   }
-//
-//   .jumbo-text-2 {
-//     color: $blue;
-//     font-family: $header-text;
-//     font-size: 24px;
-//     font-weight: bold;
-//     margin: 0;
-//     padding-left: 30px;
-//     text-align: left;
-//   }
-// }
-// Tablet End ----------------------------------------------------------
+@media (max-width: 568px) {
+  body {
+    margin: 0 auto;
+    padding: 0 0 44px;
+  }
+
+  // Nav Bar
+  nav {
+    width: 100vw;
+
+    > ul {
+      margin: 0;
+
+      > li {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+
+  }
+
+  // Landing Image
+  .jumbotron {
+    width: 100vw;
+    margin: 0;
+    padding-top: 25px;
+  }
+
+  .landing-img {
+    padding-top: 0;
+  }
+
+  // Sections
+  section {
+    margin: 5px;
+  }
+
+  // About section
+  .about-img {
+    margin-top: 20px;
+    width: 150px;
+  }
+
+  .section-header {
+    font-size: 36px;
+  }
+
+  .sub-header {
+    color: $white;
+    font-family: $primary-text;
+    font-size: 16px; //
+    text-align: center;
+  }
+
+  // Projects Section
+  .thumbnail {
+    margin: 10px auto;
+    width: 90%;
+   }
+
+  // Footer
+  .footer-icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .footer-text {
+    display: none;
+  }
+
+  .resume-download {
+    display: none;
+  }
+}

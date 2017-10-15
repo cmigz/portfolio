@@ -5,9 +5,9 @@ section {
   background-color: $white;
 }
 
-#about, #skills, #projects {
+section {
   border: 5px solid $tertiary;
-  margin: 20px auto;
+  margin: 40px;
   padding: 0;
 
   > div {
@@ -35,8 +35,8 @@ section {
 
 .section-text {
   color: $white;
-  margin: 20px 0;
-  padding: 0 5%;
+  margin: 0;
+  padding: 20px 10%;
   text-align: center;
 }
 
