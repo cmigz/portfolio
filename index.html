@@ -3,89 +3,96 @@
   <head>
     <title>Christian Mignacca's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Mountains+of+Christmas" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Cabin" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
     <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+
+    <nav id="home">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a class="nav-item" href="#about">About Me</a></li>
+        <li><a class="nav-item" href="#skills">Skills</a></li>
+        <li><a class="nav-item" href="#projects">Projects</a></li>
+      </ul>
     </nav>
+
     <header>
       <div class="jumbotron">
-        <h2 class="jumbo-text-1">Christian Mignacca</h2>
-        <h2 class="jumbo-text-2">Full Stack Web Developer</h2>
+        <img class="landing-img" alt="Landing Image" src="./assets/styles/images/smbra-landing-img.png">
       </div>
     </header>
+
     <main>
-      <section class="success" id="about">
-        <div class="container">
+
+      <section class="container" id="about">
+        <div>
           <div class="row">
-              <img class="about-img center-block" alt="About Me Image" src="https://i.imgur.com/msAwxJY.png">
+              <img class="about-img center-block" alt="About Me Image" src="./assets/styles/images/about-me-img.png">
           </div>
           <h2 class="text-center section-header">About Me</h2>
           <hr class="star-light">
           <div class="row">
-            <h3 class="text-center">Hey, welcome to my portfolio.  My name is Christian.</h3>
-            <h4 class="text-center">Coder | Entrepreneur | Gamer</h4>
-            <br>
-            <p>When I discovered my passion for coding I had realized that I had finally found what I was meant to do in this life.  I employ a personal philosophy of always working to improve one's self in addition to treating others as I'd like to be treated.  I come from a hard working old school Italian family where going above beyond is the standard, and look forward to applying that work ethic to the world of web development.</p>
-            <br>
-            <p>I want to give you an idea of who I am, I think this short story will suffice.  I was diagnosed with Bacterial Meningitis when I was two, the result was a childhood in and out of the hospital that culminated in the choice to amputate my left foot when I was thirteen.  When it comes down to it I consider this to be one of the greatest blessings in my life.  Had I not struggled through that I wouldnt be the determined, focused, and rounded person I am today.</p>
-            <br>
-            <p>On a more enjoyable note I am a huge video game and comic book afficianado.  I've been playing since I was a kid, and its always been a passion.  While I was never going to be the start quarterback I could kick anyone's ass in super smash brothers.  Comics has only recently become one of my greater loves in this life, but when I dove in I dove deep.  Going on three years now my cousin and I sell comics at the cons that come to town and those weekends are often my favorites times of the year.</p>
+            <h3 class="sub-header">Hey, welcome to my portfolio.  My name is Christian.</h3>
+            <h4 class="sub-header">Coder | Entrepreneur | Gamer</h4>
+            <p class="section-text">
+              When I discovered my passion for coding I had realized that I had finally found what I was meant to do in this life.  I employ a personal philosophy of always working to improve one's self in addition to treating others as I'd like to be treated.  I come from a hard working old school Italian family where going above beyond is the standard, and look forward to applying that work ethic to the world of web development.
+            </p>
+            <p class="section-text">
+              I am a huge video game and comic book afficianado.  I've been playing since I was a kid, and its always been a passion.  While I was never going to be the start quarterback I could kick anyone's ass in super smash brothers.  Comics has only recently become one of my greater loves in this life, but when I dove in I dove deep.  Going on three years now my cousin and I sell comics at the cons that come to town and those weekends are often my favorites times of the year.
+            </p>
           </div>
         </div>
       </section>
 
-      <section class="success" id="skills">
-        <h2 class="text-center section-header">Skills</h2>
-        <hr class="star-light">
+      <section class="container" id="skills">
         <div class="row">
+          <h2 class="text-center section-header">Skills</h2>
+          <hr class="star-light">
           <div class="container">
-            <img class="skillsImage" alt="skills"src="https://i.imgur.com/Vay9RNB.png?1">
-            <br>
-            <br>
-            <p>Just a few of my favorites.  I have a inexplicable passion for verion control with GitHub.  As of writing this Im avidly expanding my knowledge or React, and continue to strengthen myself in other areas such as stying and database architecture.</p>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="success" id="resume">
-        <h2 class="text-center section-header">Resume</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <button>
-              <a href='./assets/resume/christian-mignacca-resume.pdf' download='Christian Mignacca Resume'>Download Resume</a>
-            </button>
-          </div>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            View Resume
-          </button>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-block">
-              <img src="https://i.imgur.com/eCm9SfT.png">
+            <p class="section-text">
+              If you want a quick one word summary for this section I'd have to say its adaptability.  I can say with confidence when given a new language or framework that I possess the drive, methodology, and ability to quickly find the basic patterns and in a short time acquire a solid foundation.
+            </p>
+            <p class="section-text">
+              As I am someone who is consistently striving for self-improvement these lists will surely expand as time goes on.  I tend to gravitate towards what will help me make task X cleaner, smarter, and as simple as possible.
+            </p>
+            <h3 class="sub-header">Programming Strengths</h3>
+            <hr class="star-light">
+            <div class="skill-list">
+              <p>- JavaScript -</p>
+              <p>- jQuery -</p>
+              <p>- HTML -</p>
+              <p>- CSS -</p>
+              <p>- SASS -</p>
+              <p>- GitHub -</p>
+              <p>- SQL -</p>
+              <p>- PostgreSQL -</p>
+              <p>- NoSQL -</p>
+              <p>- MongoDB -</p>
+              <p>- WordPress -</p>
+            </div>
+            <h3 class="sub-header">Solid Foundation - Strengthening</h3>
+            <hr class="star-light">
+            <div class="skill-list">
+              <p>- Node.js -</p>
+              <p>- Express -</p>
+              <p>- React -</p>
+              <p>- Ruby -</p>
+              <p>- Ruby on Rails -</p>
+              <p>- Adobe Suite -</p>
             </div>
           </div>
+
         </div>
       </section>
-      <section class="success">
-        <div class="container">
-          <h2 class="text-center section-header">Projects</h2>
-          <hr class="star-light">
-          <div class="col-sm-6 col-md-4">
+
+      <section id="projects" class="container">
+        <h2 class="text-center section-header">Projects</h2>
+        <hr class="star-light">
+        <div>
+          <div>
             <div class="thumbnail">
               <img src="https://i.imgur.com/q1Vv4fr.jpg" alt="CharDee-Mac-Toe">
               <div class="caption">
@@ -95,7 +102,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div>
             <div class="thumbnail">
               <img src="https://i.imgur.com/KnW4f2C.png" alt="Migz Collectibles">
               <div class="caption">
@@ -105,43 +112,71 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div>
             <div class="thumbnail">
               <img src="https://i.imgur.com/vTZvUD8.png" alt="Peach Produce">
               <div class="caption">
                 <h3>Peach Produce</h3>
                 <p class="thumbnail-text">Our first project with GA in which we worked in teams in an effort to simulate to real development field as much as possible.  With this project a lot of the learning was outside of code and more focused on working with others, learning how to handle differing personalities, and how to bring it all together into a final product which we could all be proud of. </p>
                 <p style="text-align: center;"><a target="_blank" href="https://wdi-team-project.github.io/nozama-client/" class="btn btn-success" role="button">Live Site</a> <a target="_blank" href="https://github.com/cmigz/nozama-client" class="btn btn-info" role="button">GitHub Repo</a></p>
-                </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                <img src="https://i.imgur.com/60S2Sdz.png" alt="MuseArt">
-                <div class="caption">
-                  <h3>MuseArt</h3>
-                  <p class="thumbnail-text">My capstone project during my time at GA.  MuseArt was a real passion project for me.  I by no stretch of the imagination consider myself an artist but on and off since high school I've always enjoyed doodling what my brain envisions when listening to a song.  Combine that with my desire to share them with other and in hopes of finding those that do the same came the idea for MuseArt.  In time I plan to add more social componentns such as commenting and messaging, I'd really like to get this one in paritular to production level and share with the world.</p>
-                  <p style="text-align: center;"><a target="_blank" href="https://cmigz.github.io/museart-client/" class="btn btn-success" role="button">Live Site</a> <a target="_blank" href="https://github.com/cmigz/museart-client" class="btn btn-info" role="button">GitHub Repo</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                  <img src="https://i.imgur.com/6ZeOcdD.png" alt="Chris Turco Law">
-                  <div class="caption">
-                    <h3>Chris Turco Law</h3>
-                    <p class="thumbnail-text">My first endeavor in the world of web development.  At the time of building this site I'd had no real exposure to web development.  Using WordPress and some basic HTML/CSS to customize certain aspects I was very proud of what I accomplished and through the process got hooked on coding and haven't looked back since.
-                    <br>
-                    <br>
-                    In addition to building the site I also worked with a freelancer to get logo, held a photo shoot and took all the photos myself (aside from some stock photos we purchased), and trained my friend on creating/running ad campaigns as well as social media accounts.  In the short time the site has been live we've been able to bring in around a dozen clients.  Now with the skills I've gained in GA I plan to rebuild the site from scratch with some additional features, for example a portal for his clients to be able to view theirs bill and more. </p>
-                    <p style="text-align: center;"><a target="_blank" href="http://christurcolaw.com/" class="btn btn-success" role="button">Live Site</a></p>
-                    </div>
-                  </div>
-                </div>
           </div>
+          <div>
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/60S2Sdz.png" alt="MuseArt">
+              <div class="caption">
+                <h3>MuseArt</h3>
+                <p class="thumbnail-text">My capstone project during my time at GA.  MuseArt was a real passion project for me.  I by no stretch of the imagination consider myself an artist but on and off since high school I've always enjoyed doodling what my brain envisions when listening to a song.  Combine that with my desire to share them with other and in hopes of finding those that do the same came the idea for MuseArt.  In time I plan to add more social componentns such as commenting and messaging, I'd really like to get this one in paritular to production level and share with the world.</p>
+                <p style="text-align: center;"><a target="_blank" href="https://cmigz.github.io/museart-client/" class="btn btn-success" role="button">Live Site</a> <a target="_blank" href="https://github.com/cmigz/museart-client" class="btn btn-info" role="button">GitHub Repo</a></p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/6ZeOcdD.png" alt="Chris Turco Law">
+              <div class="caption">
+                <h3>Chris Turco Law</h3>
+                <p class="thumbnail-text">My first endeavor in the world of web development.  At the time of building this site I'd had no real exposure to web development.  Using WordPress and some basic HTML/CSS to customize certain aspects I was very proud of what I accomplished and through the process got hooked on coding and haven't looked back since.
+                <br>
+                <br>
+                    In addition to building the site I also worked with a freelancer to get logo, held a photo shoot and took all the photos myself (aside from some stock photos we purchased), and trained my friend on creating/running ad campaigns as well as social media accounts.  In the short time the site has been live we've been able to bring in around a dozen clients.  Now with the skills I've gained in GA I plan to rebuild the site from scratch with some additional features, for example a portal for his clients to be able to view theirs bill and more. </p>
+                <p style="text-align: center;"><a target="_blank" href="http://christurcolaw.com/" class="btn btn-success" role="button">Live Site</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <p class="copy">© Christian Mignacca 2017</p>
+
     </main>
-    <footer>
+
+    <footer id="footer">
+      <!-- <a href="tel:4018628419">
+        <img alt="Phone Icon" class="footer-icon" src="./assets/styles/images/phone-icon.png">
+        (401) 862-8419
+      </a> -->
+      <a href="mailto:cmignacca@gmail.com?Subject=Awesome%20Developer%20Needed!%20=)" target="_top">
+        <img alt="Email Icon" class="footer-icon" src="./assets/styles/images/email-icon.png">
+        cmignacca@gmail.com
+      </a>
+      <a href="https://github.com/cmigz" target="_blank">
+        <img alt="GitHub Icon" class="footer-icon" src="./assets/styles/images/github-icon.png">
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/christian-mignacca/" target="_blank">
+        <img alt="LinkedIn Icon" class="footer-icon" src="./assets/styles/images/linkedin-icon.png">
+        LinkedIn
+      </a>
+      <a href='./assets/resume/christian-mignacca-resume.pdf' target="_blank">
+        <img alt="View Resume Icon" class="footer-icon" src="./assets/styles/images/view-icon.png">
+        View Resume
+      </a>
+      <a href='./assets/resume/christian-mignacca-resume.pdf' download='Christian Mignacca Resume'>
+        <img alt="Download Resume Icon" class="footer-icon" src="./assets/styles/images/download-icon.png">
+        Download Resume
+      </a>
     </footer>
+
   </body>
 </html>

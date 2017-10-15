@@ -1,0 +1,16 @@
+@import './navbar';
+@import './landing';
+@import './sections';
+@import './about-section';
+@import './skills-section';
+@import './projects-section';
+@import './footer';
+@import '../colors';
+@import '../fonts';
+
+body {
+  background-color: $secondary;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 60px;
+}

@@ -1,0 +1,32 @@
+@import '../colors';
+@import '../fonts';
+
+#projects {
+  background-color: $primary;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.thumbnail {
+  border: 5px solid $tertiary;
+  margin: 20px;
+  width: 350px;
+
+  > img {
+    height: 200px;
+   }
+
+  > div > h3 {
+    text-align: center;
+   }
+ }
+
+.thumbnail-text {
+  height: 150px;
+  overflow: scroll;
+}
